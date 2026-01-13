@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13T00:00:00Z",
+  "hospitals": [
+    {
+      "id": "Dartmouth Hitchcock Medical Center (DHMCH)",
+      "name": "Dartmouth Hitchcock Medical Center (DHMCH)",
+      "address": "Lebanon, NH",
+      "city": "Lebanon",
+      "state": "NH",
+      "zipCode": "",
+      "phone": null,
+      "locations": [
+        {
+          "id": "ed-checkin",
+          "name": "ED - Check In",
+          "category": "Emergency",
+          "floor": "1",
+          "directions": [
+            "Come into the Ambulance Bay doors",
+            "Stay LEFT and go down the ramp",
+            "Go straight through the double doors",
+            "Walk to the end of the hallway",
+            "Take a LEFT - you'll see the nurses station where you'll check in"
+          ],
+          "notes": "Main EMS check-in point",
+          "isEmergency": true
+        },
+        {
+          "id": "l3wb",
+          "name": "L3WB - Heart & Vascular Unit",
+          "category": "Cardiac",
+          "floor": "3",
+          "roomRange": "361-376",
+          "directions": [
+            "Come into the Ambulance Bay doors",
+            "Stay LEFT and go down the ramp",
+            "Go straight through the double doors",
+            "Walk to the end of the hallway",
+            "Take a RIGHT just before the nursing station",
+            "Go straight through double doors",
+            "Once through double doors, take a RIGHT",
+            "Walk to the end of the hallway and take a LEFT",
+            "Walk through double doors",
+            "Stay straight and walk through a second set of double doors",
+            "Before the 3rd set of double doors, take a RIGHT",
+            "Walk past the elevators on your left",
+            "Go through the set of double doors",
+            "Take a LEFT after those doors",
+            "Take a RIGHT to inpatient wings A and B",
+            "Pass the staircase on your left",
+            "Go through the set of double doors",
+            "Go straight through the single door that says 'All Visitors'",
+            "Take a LEFT after the doors",
+            "Go straight through double doors",
+            "You're now on L3WB - Rooms 361-376"
+          ],
+          "notes": "Heart and Vascular Unit",
+          "isEmergency": false
+        },
+        {
+          "id": "l3wa",
+          "name": "L3WA - Medical Specialty & Invasive Care",
+          "category": "Critical Care",
+          "floor": "3",
+          "roomRange": "381-396",
+          "directions": [
+            "Come into the Ambulance Bay doors",
+            "Stay LEFT and go down the ramp",
+            "Go straight through the double doors",
+            "Walk to the end of the hallway",
+            "Take a RIGHT just before the nursing station",
+            "Go straight through double doors",
+            "Once through double doors, take a RIGHT",
+            "Walk to the end of the hallway and take a LEFT",
+            "Walk through double doors",
+            "Stay straight and walk through a second set of double doors",
+            "Before the 3rd set of double doors, take a RIGHT",
+            "Walk past the elevators on your left",
+            "Go through the set of double doors",
+            "Take a LEFT after those doors",
+            "Take a RIGHT to inpatient wings A and B",
+            "Pass the staircase on your left",
+            "Go through the set of double doors",
+            "Go straight through the single door that says 'All Visitors'",
+            "Take a RIGHT after the doors",
+            "You're now on L3WA - Rooms 381-396"
+          ],
+          "notes": "Medical Specialty Care Unit / Medical Invasive Care Unit",
+          "isEmergency": false
+        }
+      ]
+    }
+  ]
+}
